@@ -1,0 +1,44 @@
+# OS / IDE files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.env/
+.venv/
+venv/
+
+# SpikeInterface / electrophysiology data
+*.bin
+*.raw
+*.npy
+*.dat
+*.mda
+*.mat
+*.prb
+*.json
+*.csv
+*.h5
+*.hdf5
+*.npz
+*.rhd
+*.rec
+*.oebin
+
+# Large analysis outputs
+/results/
+/preprocessed/
+/sorted/
+*.tiff
+*.png
+*.jpg
+
+# VS Code
+.vscode/
